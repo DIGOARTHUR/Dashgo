@@ -3,7 +3,7 @@ import { Stack, Checkbox, Flex, SimpleGrid, Box, Text, theme, Heading, Button, I
 import { PaginationItem } from "./PaginationItem"
 export function Pagination() {
     return (
-        <Stack direction="row" mt="8" justify="space-between" align="center">
+        <Stack direction={["column","row"]}  spacing="6" mt="8" justify="space-between" align="center">
             <Box>
                 <strong>0</strong> - <strong>10</strong> de <strong>100</strong>
             </Box>
