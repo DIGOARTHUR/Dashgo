@@ -1,5 +1,6 @@
 
 import { Checkbox, Flex, SimpleGrid, Box, Text, theme, Heading, Button, Icon, Table, Thead, Tr, Th, Tbody, Td, useBreakpointValue } from "@chakra-ui/react"
+import Link from "next/link";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 import { Header } from "../../components/Header";
 import { Pagination } from "../../components/Pagination";
@@ -19,11 +20,14 @@ export default function UserList() {
                         <Heading size="lg" fontWeight="normal">
                             Usuários
                         </Heading>
+                        <Link href="/users/create" passHref>
 
-                        <Button as="a" size="sm" fontSize="sm" colorScheme="pink" leftIcon={<Icon as={RiAddLine} fontSize="20" />}>
-                            Criar novo usuário
-                        </Button>
+                            <Button as="a" size="sm" fontSize="sm" colorScheme="pink" leftIcon={<Icon as={RiAddLine} fontSize="20" />}>
+                                Criar novo usuário
+                            </Button>
+                        </Link>
                     </Flex>
+
                     <Table colorScheme="whiteAlpha">
                         <Thead>
                             <Tr>
@@ -52,7 +56,7 @@ export default function UserList() {
                                         <Text fontSize="sm" color="gray.300"> digo.arthur@hotmail.com</Text>
                                     </Box>
                                 </Td>
-                              
+
                                 {isWideVersion ? <><Td>
                                     04 de abril de 2021
                                 </Td> <Td>
@@ -72,7 +76,7 @@ export default function UserList() {
                                         <Text fontSize="sm" color="gray.300"> digo.arthur@hotmail.com</Text>
                                     </Box>
                                 </Td>
-                              
+
                                 {isWideVersion ? <><Td>
                                     04 de abril de 2021
                                 </Td> <Td>
@@ -110,6 +114,6 @@ export default function UserList() {
                     <Pagination />
                 </Box>
             </Flex >
-        </Box>
+        </Box >
     )
 }
