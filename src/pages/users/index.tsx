@@ -1,5 +1,5 @@
 
-import {  Spinner ,Checkbox, Flex, SimpleGrid, Box, Text, theme, Heading, Button, Icon, Table, Thead, Tr, Th, Tbody, Td, useBreakpointValue } from "@chakra-ui/react"
+import { Spinner, Checkbox, Flex, SimpleGrid, Box, Text, theme, Heading, Button, Icon, Table, Thead, Tr, Th, Tbody, Td, useBreakpointValue } from "@chakra-ui/react"
 import Link from "next/link";
 import { useEffect } from "react";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
@@ -15,7 +15,19 @@ export default function UserList() {
     const { data, isLoading, error } = useQuery('users', async () => {
         const response = await fetch('http://localhost:3000/api/users')
         const data = await response.json()
-        return data;
+        const users = data.users.map(user => {
+            return {
+                id: user.id,
+                name: user.name,
+                email:user.email,
+                createdAt: new Date(user.createdAt).toLocaleDateString('pt-BR',{
+                    day:'2-digit',
+                    month:'long',
+                    year:'numeric'
+                })
+            }
+        });
+        return users
     })
 
 
@@ -55,93 +67,57 @@ export default function UserList() {
                             <Text>Falha ao obter dados dos usuários</Text>
                         </Flex>
                     ) : (
-<>
-<Table colorScheme="whiteAlpha">
-                        <Thead>
-                            <Tr>
-                                <Th px={["4", "4", "6"]} color="gray.300" width="8">
-                                    <Checkbox colorScheme="pink" />
-                                </Th>
-                                <Th>
-                                    Usuário
-                                </Th>
-                                {isWideVersion && <Th>
-                                    Data de Cadatro
-                                </Th>}
-                                <Th width="8">
+                        <>
+                            <Table colorScheme="whiteAlpha">
+                                <Thead>
+                                    <Tr>
+                                        <Th px={["4", "4", "6"]} color="gray.300" width="8">
+                                            <Checkbox colorScheme="pink" />
+                                        </Th>
+                                        <Th>
+                                            Usuário
+                                        </Th>
+                                        {isWideVersion && <Th>
+                                            Data de Cadatro
+                                        </Th>}
+                                        <Th width="8">
 
-                                </Th>
-                            </Tr>
-                        </Thead>
-                        <Tbody>
-                            <Tr>
-                                <Td px={["4", "4", "6"]}>
-                                    <Checkbox colorScheme="pink" />
-                                </Td>
-                                <Td>
-                                    <Box>
-                                        <Text fontWeight="bold"> Diego Arthur</Text>
-                                        <Text fontSize="sm" color="gray.300"> digo.arthur@hotmail.com</Text>
-                                    </Box>
-                                </Td>
+                                        </Th>
+                                    </Tr>
+                                </Thead>
+                                <Tbody>
+                                    {
+                                        data.map(user => {
+                                            return (
+                                                <Tr key={user.id}>
+                                                    <Td px={["4", "4", "6"]}>
+                                                        <Checkbox colorScheme="pink" />
+                                                    </Td>
+                                                    <Td>
+                                                        <Box>
+                                                            <Text fontWeight="bold">{user.name}</Text>
+                                                            <Text fontSize="sm" color="gray.300"> {user.email}</Text>
+                                                        </Box>
+                                                    </Td>
 
-                                {isWideVersion ? <><Td>
-                                    04 de abril de 2021
-                                </Td> <Td>
-                                        <Button as="a" size="sm" fontSize="sm" colorScheme="purple" leftIcon={<Icon as={RiPencilLine} fontSize="16" />}>
-                                            Editar
-                                        </Button>
-                                    </Td></> : ''}
+                                                    {isWideVersion ? <><Td>
+                                                        {user.createdAt}
+                                                    </Td> <Td>
+                                                            <Button as="a" size="sm" fontSize="sm" colorScheme="purple" leftIcon={<Icon as={RiPencilLine} fontSize="16" />}>
+                                                                Editar
+                                                            </Button>
+                                                        </Td></> : ''}
 
-                            </Tr>
-                            <Tr>
-                                <Td px={["4", "4", "6"]}>
-                                    <Checkbox colorScheme="pink" />
-                                </Td>
-                                <Td>
-                                    <Box>
-                                        <Text fontWeight="bold"> Diego Arthur</Text>
-                                        <Text fontSize="sm" color="gray.300"> digo.arthur@hotmail.com</Text>
-                                    </Box>
-                                </Td>
+                                                </Tr>
+                                            )
+                                        })
+                                    }
+                                </Tbody>
+                            </Table>
 
-                                {isWideVersion ? <><Td>
-                                    04 de abril de 2021
-                                </Td> <Td>
-                                        <Button as="a" size="sm" fontSize="sm" colorScheme="purple" leftIcon={<Icon as={RiPencilLine} fontSize="16" />}>
-                                            Editar
-                                        </Button>
-                                    </Td></> : ''}
+                            <Pagination />
+                        </>
 
-                            </Tr>
-                            <Tr>
-                                <Td px={["4", "4", "6"]}>
-                                    <Checkbox colorScheme="pink" />
-                                </Td>
-                                <Td>
-                                    <Box>
-                                        <Text fontWeight="bold"> Diego Arthur</Text>
-                                        <Text fontSize="sm" color="gray.300"> digo.arthur@hotmail.com</Text>
-                                    </Box>
-                                </Td>
-
-
-                                {isWideVersion ? <><Td>
-                                    04 de abril de 2021
-                                </Td> <Td>
-                                        <Button as="a" size="sm" fontSize="sm" colorScheme="purple" leftIcon={<Icon as={RiPencilLine} fontSize="16" />}>
-                                            Editar
-                                        </Button>
-                                    </Td></> : ''}
-
-
-                            </Tr>
-                        </Tbody>
-                    </Table>
-
-                    <Pagination />
-</>
-                       
                     )}
                 </Box>
             </Flex >
