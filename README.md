@@ -56,7 +56,7 @@ https://simpleicons.org/?q=react
   <!------------------------------------PROJECT ICON-->
   
 <h1 align="center">
-  <img width="200" height="150" alt="Dashgo" title="Dashgo" src="" />
+  <img width="200" height="150" alt="Dashgo" title="Dashgo" src="https://user-images.githubusercontent.com/59892368/193431566-ca6940c0-e883-4dd9-960b-30b2e89a25ea.svg" />
 </h1>
    <!------------------------------------SUMMARY-->
 <p align="center">
@@ -86,18 +86,34 @@ https://simpleicons.org/?q=react
     
 
 ## DESKTOP
-
-  ![image](https://user-images.githubusercontent.com/59892368/193430890-d28d0594-c8fd-4c95-9418-26a82d0e7495.png)
   
-  ![image](https://user-images.githubusercontent.com/59892368/193430860-14d266a3-2f2d-4efb-bca2-e5ed665e0401.png)
+|                             Tela de Login                             |
+| :-------------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/193430890-d28d0594-c8fd-4c95-9418-26a82d0e7495.png) |
+
   
-  ![image](https://user-images.githubusercontent.com/59892368/193430900-adee4696-c0b2-4232-bed4-3e2728024594.png)
+  |                               Dashboard                               |
+| :-------------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/193430860-14d266a3-2f2d-4efb-bca2-e5ed665e0401.png)|
 
-
- ![image](https://user-images.githubusercontent.com/59892368/193430907-9c67952d-daa3-4a9c-ae1a-cc901f63eaf4.png)
+  
+|                             Usuários                             |
+| :--------------------------------------------------------------: |
+|   ![image](https://user-images.githubusercontent.com/59892368/193430900-adee4696-c0b2-4232-bed4-3e2728024594.png)|
   
 
-![image](https://user-images.githubusercontent.com/59892368/193430914-bb77702f-7159-430f-bfb2-031e003f41b3.png)
+  |                             Criar Usuário                              |
+| :--------------------------------------------------------------------: |
+|  ![image](https://user-images.githubusercontent.com/59892368/193430907-9c67952d-daa3-4a9c-ae1a-cc901f63eaf4.png)|
+
+
+
+|                            Ferramenta React Query                       |
+| :--------------------------------------------------------------------: |
+|  ![image](https://user-images.githubusercontent.com/59892368/193430914-bb77702f-7159-430f-bfb2-031e003f41b3.png)|
+  
+
+
   
   
   
