@@ -72,7 +72,7 @@ https://simpleicons.org/?q=react
    <!------------------------------------DESCRIPTION-->
 
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre a aplicação <!---write here : talk a little about project: what's does, example.  -->
-> Essa é uma aplicação voltado para o desenolvimento de Dashboard que aborda apresentação e exemplo de autenticação de login, implementação de uso de gráficos, crud de usuários, listagem. Aqui o destaque vai para o uso do ChakraUI para estilização, MirageJS para implementar uma API no FrontEnd, Autenticação JTW e o uso do ReactQuery para a otimização de carregamento de dado na página.
+> Essa é uma aplicação voltado para o desenvolvimento de Dashboard que aborda apresentação e exemplo de autenticação de login, implementação de uso de gráficos, crud de usuários, listagem. Aqui o destaque vai para o uso do ChakraUI para estilização, MirageJS para implementar uma API no FrontEnd, Autenticação JTW e o uso do ReactQuery para a otimização de carregamento de dado na página.
   
   
 <!------------------------------------LAYOUT -->
