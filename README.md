@@ -14,7 +14,7 @@ EXEMPLO
 
 # JavaScript - Nome que aparece na Bag
 # logo=JavaScript - Muda a logo vide <https://simpleicons.org/?q=react>
-# color=yellow - Define a cor da bag
+# color=yellow - Define a cor da bag vide <https://shields.io>
 # logoColor=white - Define a cor do icone
 -->
 
@@ -153,15 +153,19 @@ EXEMPLO
   * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
   
 
+
+
+ ### Gerenciador / Pacotes
+ <a href="https://yarnpkg.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Yarn-/?logo=Yarn&logoColor=white&color=blue)<a/> 
  *  [`ChakraUI`](https://chakra-ui.com) (Biblioteca de componentes do React que facilita a construção da IU de uma aplicação)
  *  [`MirageJS`](https://miragejs.com) (Biblioteca de simulação de API que permite criar, testar e compartilhar um aplicativo JavaScript completo e funcional sem precisar depender de nenhum serviço de back-end.)
- *  [`React Query`](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/) (Ferramenta que otimiza a busca, armazenamento em cache e atualização dos dados remotos) 
-
+ *  [`React Query`](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/) (Biblioteca utilizada para otimizar a busca, armazenamento em cache e atualização dos dados remotos) 
+  
  ### Versionameto
- 
+ <a href="https://git-scm.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Git-/?logo=Git&logoColor=white&color=red)<a/> 
  ### IDE
- 
- ### Gerenciador de pacotes
+ <a href="https://code.visualstudio.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-VisualStudioCode-/?logo=VisualStudioCode&logoColor=white&color=informational)<a/> 
+
  
   <!------------------------------------RUN APP-->
  
