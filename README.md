@@ -122,24 +122,28 @@ https://simpleicons.org/?q=react
 ## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142231777-8c0e09fa-ac09-4654-89d6-6bb986bde09b.gif"> Pontos Abordados: <!---write here: learned concepts; -->
 
   
-* JavaScript
-  * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com transformação de valores, conteúdo)
-  * [`Async/await`](https://www.w3schools.com/js/js_async.asp) 
-* CSS
+### Lógica 
+*  <a href="https://devdigoarthur.notion.site/Map-a87c73417a064372b122bf448f4c6ed4"> ![Alt ou título da imagem](https://img.shields.io/badge/-JavaScript-/?logo=JavaScript&logoColor=white&color=yellow)<a/>
+   * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com transformação de valores, conteúdo)
+   * [`Async/await`](https://www.w3schools.com/js/js_async.asp) 
+### Estilização 
+* <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/> 
   * [`Global Style`]()
      * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
      * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
   * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Posicionamento de elementos)
-* React
+  
+### Framework & Libs
+* <a href="https://nextjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-NextJS-/?logo=Next.js&logoColor=white&color=lightgrey)<a/>  
+  * `Estrutura` (Estruturação de pastas e arquivos)
+  * `Evitar conflito CSS`(.modules) 
+  * `next/link` (Aplicação de rotas)    
+   
+* <a href="https://reactjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-ReactJS-/?logo=React&logoColor=white&color=blue)<a/> 
   * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
   * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
-* [`NextJS`](https://nextjs.org/docs/getting-started) 
-  * `Estrutura` (Estruturação de pastas e arquivos)
-  * `Estilização`(Aplicação de CSS) 
-  * `Variáveis Ambientes` (Uso de variáveis ambiente) 
-  * `Rotas` (Aplicação de rotas para API) 
-  * `API Routes`
-     * `Parametrização nas rotas` (Framework para React) 
+  
+ 
 *  [`ChakraUI`](https://chakra-ui.com) (Biblioteca de componentes do React que facilita a construção da IU de uma aplicação)
 *  [`MirageJS`](https://miragejs.com) (Biblioteca de simulação de API que permite criar, testar e compartilhar um aplicativo JavaScript completo e funcional sem precisar depender de nenhum serviço de back-end.)
 *  [`React Query`](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/) (Ferramenta que otimiza a busca, armazenamento em cache e atualização dos dados remotos) 
@@ -191,7 +195,7 @@ git remote -v
 
 
  # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Por que?  <!---write here : motivation that led to created ; why did you do this program?   -->
- Esse foi um dos projetos mais legais dentro do IGNITE trilha ReactJS. A [@Rocketseat](https://github.com/Rocketseat) sempre trazendo novidades a cada aplicação, ferramentas que abrem fronteiras para aplicação e criatividade em projetos pessoais e profissionais.
+ Seguindo o curso IGNITE já em reta final, esse foi um dos projetos mais legais dentro  trilha ReactJS. A [@Rocketseat](https://github.com/Rocketseat) sempre trazendo novidades a cada aplicação, ferramentas que abrem fronteiras para aplicação e criatividade em projetos pessoais e profissionais.
 
  ---
 Só tenho agradecer ♥
