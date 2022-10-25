@@ -117,9 +117,9 @@ https://simpleicons.org/?q=react
   
   
   
-  <!------------------------------------PRODUCTION SKILLS-->
+  <!------------------------------------LIST: STACKS , LIBS & TOOLS-->
 
-## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142231777-8c0e09fa-ac09-4654-89d6-6bb986bde09b.gif"> Pontos Abordados: <!---write here: learned concepts; -->
+## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197614534-e12fb94a-b5cf-44ff-8d57-debad7299b0b.png"> Stacks e Libs: <!---write here: learned concepts; -->
 
   
 ### Lógica 
