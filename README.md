@@ -169,10 +169,11 @@ EXEMPLO
 
  ### Gerenciador / Pacotes
  <a href="https://yarnpkg.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Yarn-/?logo=Yarn&logoColor=white&color=blue)<a/> 
- *  [`ChakraUI`](https://chakra-ui.com) (Biblioteca que fornece Estilo, Componentes, Hooks para a aplicação React que facilita a construção da IU)
- *  [`MirageJS`](https://miragejs.com) (Biblioteca de simulação de API que permite criar, testar e compartilhar um aplicativo JavaScript completo e funcional sem precisar depender de nenhum serviço de back-end.)
- *  [`React Query`](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/) (Biblioteca utilizada para otimizar a busca, armazenamento em cache e atualização dos dados remotos) 
-  
+ *  [`chakra-ui`](https://chakra-ui.com) (Biblioteca que fornece Estilo, Componentes, Hooks para a aplicação React que facilita a construção da IU)
+ *  [`miragejs`](https://miragejs.com) (Biblioteca de simulação de API que permite criar, testar e compartilhar um aplicativo JavaScript completo e funcional sem precisar depender de nenhum serviço de back-end.)
+ *  [`react-query`](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/) (Biblioteca utilizada para otimizar a busca, armazenamento em cache e atualização dos dados remotos) 
+ *  [`apexcharts`](https://apexcharts.com) (Biblioteca que oferece ferramentas para contrução de gráfico interativos e modernos)
+ *  [`axios`](https://axios-http.com/docs/intro) (Biblioteca utilizada para fazer chamadas HTTP Client. Chamadas em uma API ou a partir de um Back-end construído.) 
  ### Versionameto
  <a href="https://git-scm.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Git-/?logo=Git&logoColor=white&color=red)<a/> 
  ### IDE
