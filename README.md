@@ -47,7 +47,6 @@ EXEMPLO
 <p align="left">
 
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img  alt="HTML5"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/222955162-5b69600b-8953-45bd-9144-56fb3491d54e.svg"><a/>
-   <a href="https://pt-br.reactjs.org/"><img  alt="ReactJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210763677-ee1a0283-eea7-45de-9589-86d7c50a8cb0.svg"><a/>
    <a href="https://www.typescriptlang.org/"><img  alt="TypeScript"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762527-ae3afe1f-fe36-46a9-98ad-35dbae4d1adf.svg"><a/>
     <a href="https://nextjs.org/"><img  alt="NextJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762514-59814e6d-5cc8-4981-aa11-904b83a51d40.svg"><a/>
     <a href="https://chakra-ui.com"><img  alt="ChakraUI"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/193428143-7416fe87-3c54-41af-a472-3d00190c6bbb.png"><a/>
@@ -159,11 +158,10 @@ EXEMPLO
   * `Estrutura` (Estruturação de pastas e arquivos)
   * `Evitar conflito CSS`(.modules) 
   * `next/link` (Aplicação de rotas)    
-   
- <a href="https://reactjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-ReactJS-/?logo=React&logoColor=white&color=blue)<a/> 
   * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
   * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
   * [`Props`](https://reactjs.org/docs/state-and-lifecycle.html) (Recurso utilizado para passar atributos de um componente pai para outro componente filho)
+ 
 
 
 
