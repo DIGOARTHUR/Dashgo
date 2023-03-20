@@ -47,7 +47,6 @@ EXEMPLO
 <p align="left">
 
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img  alt="HTML5"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/222955162-5b69600b-8953-45bd-9144-56fb3491d54e.svg"><a/>
-   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img  alt="CSS3"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762519-fc191098-1198-4668-9eb5-d0c1481da8c7.svg"><a/>
    <a href="https://pt-br.reactjs.org/"><img  alt="ReactJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210763677-ee1a0283-eea7-45de-9589-86d7c50a8cb0.svg"><a/>
    <a href="https://www.typescriptlang.org/"><img  alt="TypeScript"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762527-ae3afe1f-fe36-46a9-98ad-35dbae4d1adf.svg"><a/>
     <a href="https://nextjs.org/"><img  alt="NextJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762514-59814e6d-5cc8-4981-aa11-904b83a51d40.svg"><a/>
@@ -151,11 +150,9 @@ EXEMPLO
      * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Método utilizada para iterar arrays. Há retorno de outra array com transformação de valores, conteúdo determinado)
      * [`Async/await`](https://www.w3schools.com/js/js_async.asp) (Método utilizado para transformar funções em assíncronas.)
 ### Estilização 
- <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/> 
-  * [`Global Style`]()
-     * [`Variáves`](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties) (Variáveis aplicados no CSS, como de cores por exemplo)
-     * [`Reset CSS`](https://www.alura.com.br/artigos/o-que-e-reset-css) (Resete de config. de medidas da página)
-  * [`Flexbox`](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) (Posicionamento de elementos)
+ <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-ChakraUI-/?logo=ChakraUI&logoColor=white&color=9cf)<a/> 
+  * [`Styled System`](https://chakra-ui.com/docs/styled-system/style-props)(ChakraUI possibilita a experiência própria de estilização, sendo repassado por Props.)
+
   
 ### Framework / Lib
  <a href="https://nextjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-NextJS-/?logo=Next.js&logoColor=white&color=lightgrey)<a/>  
@@ -172,7 +169,7 @@ EXEMPLO
 
  ### Gerenciador / Pacotes
  <a href="https://yarnpkg.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Yarn-/?logo=Yarn&logoColor=white&color=blue)<a/> 
- *  [`ChakraUI`](https://chakra-ui.com) (Biblioteca de componentes do React que facilita a construção da IU de uma aplicação)
+ *  [`ChakraUI`](https://chakra-ui.com) (Biblioteca que fornece Estilo, Componentes, Hooks para a aplicação React que facilita a construção da IU)
  *  [`MirageJS`](https://miragejs.com) (Biblioteca de simulação de API que permite criar, testar e compartilhar um aplicativo JavaScript completo e funcional sem precisar depender de nenhum serviço de back-end.)
  *  [`React Query`](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/) (Biblioteca utilizada para otimizar a busca, armazenamento em cache e atualização dos dados remotos) 
   
