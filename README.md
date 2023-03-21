@@ -146,8 +146,10 @@ EXEMPLO
 ### Linguagem
  <a href="https://www.typescriptlang.org/"> ![Alt ou título da imagem](https://img.shields.io/badge/-TypeScript-/?logo=TypeScript&logoColor=white&color=informational)<a/>
  * [`TypeScript`](https://www.typescriptlang.org/) (TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala.)
-     * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Método utilizada para iterar arrays. Há retorno de outra array com transformação de valores, conteúdo determinado)
+     * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Método que executa uma iteração em uma array com retorno de outra array formatada, trabalhada de diversas formas.)
      * [`Async/await`](https://www.w3schools.com/js/js_async.asp) (Método utilizado para transformar funções em assíncronas. Usado para chamadas de APIs.)
+     
+     
 ### Estilização 
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-ChakraUI-/?logo=ChakraUI&logoColor=white&color=9cf)<a/> 
   * [`Styled System`](https://chakra-ui.com/docs/styled-system/style-props)(ChakraUI possibilita a experiência própria de estilização, sendo repassado por Props.)
